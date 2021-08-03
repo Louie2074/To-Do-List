@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+<div class="navItems">
+<h1 class="navItem">My To-Do Lists</h1>
+<a class="navItem link" href="">All Tasks</a>
+<a class="navItem link" href="">Today</a>
+<a class="navItem link" href="">Completed</a>
+<h1 class="navItem">Lists</h1>
+<div class = "lists">
+
+</div>
+<a class="navItem link" href="">+ Add a List</a>
+</div>
+</nav>
+ <div class="modal">
+      <div class="modal-header">
+        <h1>Add a Book</h1>
+        <button class="close">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <input type="text" placeholder="Task Name" required />
+        <input type="date" placeholder="Date" required />
+        <div>
+          <p style="display: inline">Important?</p>
+          <input style="display: inline" type="checkbox" />
+        </div>
+
+        <button class="submit">Submit</button>
+        <div class="msg" style="color: red; font-size: large"></div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+
+<main class="content">
+
+
+</main>
+  <script src="main.js"></script>
+</body>
+</html>
